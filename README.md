@@ -1,8 +1,10 @@
 # The 90% Makefile
 
+Contents:
 - Introduction
 - Project Setup
 - Makefile
+- Conclusion
 
 ## Introduction
 
@@ -364,3 +366,8 @@ This section may need to change depending on your projects needs.
 deps:
 	$(foreach dir, $(DEPS), $(shell cd $(dir) && $(MAKE)))
 ```
+
+## Conclusion
+
+Hopefully this Makefile helps you, if not fully, maybe it at least gets you started
+in having something that can cover the uses you need.
